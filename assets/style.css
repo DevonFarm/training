@@ -39,8 +39,14 @@ header > nav {
   margin: 2rem 0;
 }
 
-.title {
+.title,
+.contact > h4,
+.contact > p {
   margin: 1rem 0;
+}
+
+.contact > h3 {
+  margin: 2rem 0 1rem;
 }
 
 .clark {
