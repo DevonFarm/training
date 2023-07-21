@@ -4,6 +4,12 @@
   /* --accent: #1e7a1e; */
 }
 
+@media (prefers-color-scheme: dark) {
+  .logo > img {
+    filter: brightness(0%) invert(1);
+  }
+}
+
 main {
   padding-bottom: 4rem;
 }
